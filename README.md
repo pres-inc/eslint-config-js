@@ -19,6 +19,10 @@
    ```bash
    $ npm install -D @pres-inc/eslint-config-js
    ```
+9. You also need to install peer dependencies
+   ```bash
+   $ npm install -D eslint
+   ```
 
 ## Usage
 
