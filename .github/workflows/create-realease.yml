@@ -1,0 +1,21 @@
+name: Create GitHub Release
+
+on:
+  push:
+    tags:
+      - '*'
+# For test
+#  pull_request:
+
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
