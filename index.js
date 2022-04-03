@@ -7,6 +7,7 @@ module.exports = {
     "curly": "error",
     "brace-style": "error",
     "indent": ["error", 4],
-    "object-shorthand": "error"
+    "object-shorthand": "error",
+    "no-multi-spaces": "error",
   }
 }
