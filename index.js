@@ -8,5 +8,6 @@ module.exports = {
     "indent": ["error", 2],
     "object-shorthand": "error",
     "no-multi-spaces": "error",
+    "no-fallthrough": "error"
   }
 }
